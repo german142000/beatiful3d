@@ -1,0 +1,115 @@
+# depslib dependency file v1.0
+1689843463 source:c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\main.cpp
+	<windows.h>
+	<GL/glew.h>
+	<GL/gl.h>
+	<GL/wglext.h>
+	<iostream>
+	<string>
+	<iostream>
+	<sstream>
+	<ctime>
+	<thread>
+	<vector>
+	"vertexClass.h"
+	"normalsClass.h"
+	"textureLoaderClass.h"
+	"devToolsClass.h"
+	"sceneClass.h"
+	"OBJformatLoader.h"
+	"materialClass.h"
+
+1689495430 source:c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\vertexclass.cpp
+	"vertexClass.h"
+
+1689495400 c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\vertexclass.h
+
+1689743518 source:c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\meshclass.cpp
+	"meshClass.h"
+	"vertexClass.h"
+	"normalsClass.h"
+	<iostream>
+
+1688578594 source:c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\materialclass.cpp
+	"materialClass.h"
+
+1689743786 source:c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\normalsclass.cpp
+	"normalsClass.h"
+
+1689743450 c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\meshclass.h
+	<vector>
+	"vertexClass.h"
+	"normalsClass.h"
+	<string>
+
+1688931825 c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\materialclass.h
+	<stdint.h>
+	<string>
+	"textureLoaderClass.h"
+
+1689743732 c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\normalsclass.h
+	<vector>
+
+1688429465 source:c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\textureloaderclass.cpp
+	<fstream>
+	<sstream>
+	<iomanip>
+	<stdint.h>
+	"avir.h"
+	"textureLoaderClass.h"
+
+1688759826 c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\textureloaderclass.h
+	<vector>
+	<string>
+	<stdint.h>
+
+1688422353 c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\avir.h
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+
+1689485747 source:c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\devtoolsclass.cpp
+	<windows.h>
+	<CommCtrl.h>
+	<thread>
+	<iostream>
+	<string>
+	<sstream>
+	"devToolsClass.h"
+
+1689479327 c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\devtoolsclass.h
+	<windows.h>
+	<vector>
+
+1689496123 source:c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\sceneclass.cpp
+	"sceneClass.h"
+
+1688759445 source:c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\lightclass.cpp
+
+1689497364 c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\sceneclass.h
+	"meshClass.h"
+	"materialClass.h"
+	"lightClass.h"
+
+1688940159 c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\lightclass.h
+
+1689840714 source:c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\objformatloader.cpp
+	<fstream>
+	<string>
+	<sstream>
+	<windows.h>
+	<iostream>
+	<thread>
+	<stdlib.h>
+	<malloc.h>
+	<string>
+	"OBJformatLoader.h"
+	"vertexClass.h"
+	"normalsClass.h"
+
+1689232648 c:\users\gfjf\desktop\germanprogs\openglengine\openglengine\objformatloader.h
+	<vector>
+	"vertexClass.h"
+	"normalsClass.h"
+

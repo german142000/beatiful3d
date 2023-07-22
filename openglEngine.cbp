@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="openglEngine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/openglEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/openglEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="OBJformatLoader.cpp" />
+		<Unit filename="OBJformatLoader.h" />
+		<Unit filename="avir.h" />
+		<Unit filename="devToolsClass.cpp" />
+		<Unit filename="devToolsClass.h" />
+		<Unit filename="lightClass.cpp" />
+		<Unit filename="lightClass.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="materialClass.cpp" />
+		<Unit filename="materialClass.h" />
+		<Unit filename="meshClass.cpp" />
+		<Unit filename="meshClass.h" />
+		<Unit filename="normalsClass.cpp" />
+		<Unit filename="normalsClass.h" />
+		<Unit filename="sceneClass.cpp" />
+		<Unit filename="sceneClass.h" />
+		<Unit filename="textureLoaderClass.cpp" />
+		<Unit filename="textureLoaderClass.h" />
+		<Unit filename="vertexClass.cpp" />
+		<Unit filename="vertexClass.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
